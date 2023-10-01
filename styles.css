@@ -1,0 +1,90 @@
+body {
+	font-family: Tahoma;
+	background: var(--color-darkblue);
+	background-image: linear-gradient(115deg,
+			rgba(58, 58, 158, 0.8),
+			rgba(136, 136, 206, 0.7)),
+		url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+}
+
+h1,
+p {
+	text-align: center;
+}
+
+fieldset {
+	min-width: 300px;
+	max-width: 700px;
+	background-color: rgb(3, 6, 18, 0.6);
+	margin: 0 auto;
+	border: none;
+	border-radius: 5px;
+	padding: 20px 20px;
+}
+
+input {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 8px;
+	padding: 5px;
+	color: rgb(82, 89, 85);
+}
+
+input:focus {
+	border-color: rgb(8, 6, 115);
+}
+
+select {
+	display: block;
+	width: 100%;
+}
+
+label {
+	text-align: left;
+	margin: 10px 0 10px 0;
+	display: block;
+}
+
+
+input[type="radio"] {
+	width: unset;
+	display: inline;
+	margin: 0 0.5em 0 0;
+	vertical-align: middle;
+}
+
+
+select {
+	padding: 5px;
+	color: rgb(82, 89, 85);
+}
+
+input[type="checkbox"] {
+	width: unset;
+	display: inline;
+	margin: 0 0.05em 0 0;
+}
+
+
+textarea {
+	display: block;
+	width: 100%;
+	min-width: 300px;
+	min-height: 100px;
+}
+
+
+input[type="submit"] {
+	background-color: rgb(58, 171, 97);
+	border: none;
+	min-width: 300px;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 10px;
+	color: white;
+}
